@@ -1,0 +1,118 @@
+/* Abdeljalil47 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(154, 204, 187);
+}
+section{
+    max-width: 100%;
+}
+caption{
+    width: 1%;
+}
+.container{
+    animation: all 9s infinite;
+    position: relative;
+    width: 300px;
+    max-height: 10%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+@keyframes all {
+    0%,50%{
+        background-color: white;
+    }60%,70%{
+        background-color: rgb(29, 28, 26);
+    }80%,90%{
+        background-color: aqua;
+    }100%{
+        background-color: aquamarine;
+    }
+}
+.num1,.num2,.num3,.num4,.num5,.num6,.num7,.num8,.num9,.divistion,.multible,.mince{
+    margin: 10px 15px 11px 0px;
+    background: rgb(13, 28, 32);
+    color: rgb(64, 166, 255);
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 17%;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: default;
+}
+.num0:hover,.num1:hover,.num2:hover,.num3:hover{
+    background-color: rgb(242, 245, 76);
+    color: black;
+}
+.num4:hover,.num5:hover,.num6:hover{
+    background-color: rgb(242, 245, 76);
+    color: black;
+}
+.num7:hover,.num8:hover,.num9:hover{
+    background-color: rgb(242, 245, 76);
+    color: black;
+}
+.num1,.num2,.num3,.divistion{
+    display: inline-block;
+}
+.num4,.num5,.num6,.multible{
+    display: inline-block;
+}
+.num7,.num8,.num9,.mince{
+    display: inline-block;
+}
+.num0,.plus,.equal,.point{
+    display: inline-block;
+}
+.num0,.plus,.equal,.point{
+    margin: 10px 15px 11px 0px;
+    background: rgb(13, 28, 32);
+    color: rgb(64, 166, 255);
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 17%;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: default;
+}
+.plus:hover,.equal:hover,.point:hover,.divistion:hover,.multible:hover,.mince:hover{
+    background-color: rgb(230, 35, 35);
+    color: rgb(255, 255, 255);
+}
+.ecron{
+    position: relative;
+    left: 11%;
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    overflow: hidden;
+}
+.clear{
+    margin: 10px 15px 11px 0px;
+    background: rgb(13, 28, 32);
+    color: rgb(64, 166, 255);
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 50%;
+    font-size: 23px;
+    font-weight: 600;
+    cursor: default;
+}
+span{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(7, 13, 51);
+}
